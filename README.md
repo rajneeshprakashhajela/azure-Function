@@ -102,3 +102,11 @@ Run JsReport with Docker: docker run -p 5488:5488 jsreport/jsreport. Check JsRep
 Add JsReport url as JsReportUrl to local.settings.json in PrintInvoiceFunc project.
 
 Add JsReport template with name INVOICE and content:
+
+
+
+<img width="664" alt="image" src="https://user-images.githubusercontent.com/43515480/230004618-a4dd7ccd-a5de-4b3e-a7e6-057f8c40e0ff.png">
+
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/43515480/230004699-fb6c8903-5a27-4396-ac00-ff8184ad4408.png">
+
+<img width="550" alt="image" src="https://user-images.githubusercontent.com/43515480/230005115-48cf84ce-0774-458c-bbb7-aeb510988396.png">
