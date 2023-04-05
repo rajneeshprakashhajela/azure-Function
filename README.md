@@ -11,6 +11,8 @@ An Escalation task is also allocated if the approval task is not completed withi
 ![image](https://user-images.githubusercontent.com/43515480/229991664-3ba128a8-aebe-4b25-9206-92ad629c63b6.png)
 <img width="591" alt="image" src="https://user-images.githubusercontent.com/43515480/229991742-d537746a-08a5-42b7-9bc8-3ee1da1ac17a.png">
 
+<b>Fan out and Fan In </b>
+
 ![image](https://user-images.githubusercontent.com/43515480/229993123-17b279c3-e565-4370-ba1f-c342687dc994.png)
 
 
