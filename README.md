@@ -1,3 +1,21 @@
+
+Design a Durable Function Work related to Employee Leave Approval Process
+https://www.c-sharpcorner.com/article/azure-duration-functions-how-to-use-and-implement-it/
+
+This workflow will contain the below steps,
+
+The employee submits a Leave Application.
+The approval task is assigned to the Reporting Manager so that they can review the Leave Application of the Employee.
+The Leave Application is either approved or rejected.
+An Escalation task is also allocated if the approval task is not completed within the pre-defined time limit.
+![image](https://user-images.githubusercontent.com/43515480/229991664-3ba128a8-aebe-4b25-9206-92ad629c63b6.png)
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/43515480/229991742-d537746a-08a5-42b7-9bc8-3ee1da1ac17a.png">
+
+![image](https://user-images.githubusercontent.com/43515480/229993123-17b279c3-e565-4370-ba1f-c342687dc994.png)
+
+
+
+
 https://i.stack.imgur.com/L1HtA.gif
 
 
