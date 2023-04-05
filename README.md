@@ -58,6 +58,8 @@ Billing Service in Azure Function
 https://github.com/asc-lab/azure-functions-billing
 <img width="467" alt="image" src="https://user-images.githubusercontent.com/43515480/230000958-9be48c90-5b4e-408c-aa49-40532b266570.png">
 
+![image](https://user-images.githubusercontent.com/43515480/230001707-5778dfe9-1e10-4b7d-b121-f39f7b490a20.png)
+
 
 User uploads CSV file (with name structure CLIENTCODE_YEAR_MONTH_activeList.txt.) with Beneficiaries (the sample file is located in the data-examples folder) to a specific data storage - active-lists Azure Blob Container.
 
