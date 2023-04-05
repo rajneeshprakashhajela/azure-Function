@@ -61,6 +61,9 @@ https://github.com/asc-lab/azure-functions-billing
 ![image](https://user-images.githubusercontent.com/43515480/230001707-5778dfe9-1e10-4b7d-b121-f39f7b490a20.png)
 
 
+<img width="580" alt="image" src="https://user-images.githubusercontent.com/43515480/230002209-efff9381-e4ea-43a8-9536-19e74b71d7cc.png">
+
+
 User uploads CSV file (with name structure CLIENTCODE_YEAR_MONTH_activeList.txt.) with Beneficiaries (the sample file is located in the data-examples folder) to a specific data storage - active-lists Azure Blob Container.
 
 The above action triggers a function (GenerateBillingItemsFunc) that is responsible for:
