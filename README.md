@@ -46,3 +46,54 @@ namespace FunctionApp3<BR/>
 File System Logs <- Log Stream <- Monitoring (Left Index Menu) of the Function App:
 ![image](https://user-images.githubusercontent.com/43515480/229989190-75973a30-538b-4f40-87fe-cbdf673c06da.png)
 ![image](https://user-images.githubusercontent.com/43515480/229989334-e43c55bb-6d6e-4f7e-874f-8ea34e3b7e41.png)
+
+
+Logging in Azure Function:
+
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/43515480/229999438-93191aaa-0e0d-4407-a62a-656970de1ccf.png">
+
+
+
+Billing Service in Azure Function
+https://github.com/asc-lab/azure-functions-billing
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/43515480/230000958-9be48c90-5b4e-408c-aa49-40532b266570.png">
+
+
+User uploads CSV file (with name structure CLIENTCODE_YEAR_MONTH_activeList.txt.) with Beneficiaries (the sample file is located in the data-examples folder) to a specific data storage - active-lists Azure Blob Container.
+
+The above action triggers a function (GenerateBillingItemsFunc) that is responsible for:
+
+generating billing items (using prices from an external database - CosmosDB crm database, prices collection) and saving them in the table billingItems;
+sending message about the need to create a new invoice to invoice-generation-request;
+When a new message appears on the queue invoice-generation-request, next function is triggered (GenerateInvoiceFunc). This function creates domain object Invoice and save this object in database (CosmosDB crm database, invoices collection) and send message to queues: invoice-print-request and invoice-notification-request.
+
+When a new message appears on the queue invoice-print-request, function PrintInvoiceFunc is triggered. This function uses external engine to PDF generation - JsReport and saves PDF file in BLOB storage.
+
+When a new message appears on the queue invoice-notification-request, function NotifyInvoiceFunc is triggered. This function uses two external systems - SendGrid to Email sending and Twilio to SMS sending.
+
+Tutorial from scratch to run locally
+Install and run Microsoft Azure Storage Emulator.
+
+Install and run CosmosDB Emulator. Check this on https://localhost:8081/_explorer/index.html.
+
+Create in Emulator blob Container active-lists.
+
+Upload ASC_2018_02_activeLists.txt file from data-examples folder to active-lists blob.
+
+Create CosmosDB database crm and in this database create collections: prices, invoices.
+
+Add CosmosDB properties PriceDbUrl and PriceDbAuthKey to local.appsettings.json in PriceDbInitializator and GenerateBillingIemsFunc. You can copy this properties from Azure CosmosDB Emulator - check point 2 (URI and Primary Key).
+
+Run project PriceDbInitializator to init collection prices in crm database.
+
+Add CosmosDB connection string as cosmosDb to local.settings.json in GenerateInvoiceFunc. You can copy this string from Azure CosmosDB Emulator - check point 2 (Primary Connection String).
+
+Create an account in SendGrid and add property SendGridApiKey to local.settings.json in NotifyInvoiceFunc.
+
+Create an account in Twilio and add properties TwilioAccountSid TwilioAuthToken to local.settings.json in NotifyInvoiceFunc.
+
+Run JsReport with Docker: docker run -p 5488:5488 jsreport/jsreport. Check JsReport Studio on localhost:5488.
+
+Add JsReport url as JsReportUrl to local.settings.json in PrintInvoiceFunc project.
+
+Add JsReport template with name INVOICE and content:
