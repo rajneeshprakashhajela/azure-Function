@@ -25,3 +25,4 @@ namespace FunctionApp3<BR/>
 
 File System Logs <- Log Stream <- Monitoring (Left Index Menu) of the Function App:
 ![image](https://user-images.githubusercontent.com/43515480/229989190-75973a30-538b-4f40-87fe-cbdf673c06da.png)
+![image](https://user-images.githubusercontent.com/43515480/229989334-e43c55bb-6d6e-4f7e-874f-8ea34e3b7e41.png)
