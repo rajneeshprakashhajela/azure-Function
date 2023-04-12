@@ -1,3 +1,43 @@
+Azure Function  - Security, Monitoring, Logging, Statefull, steless, Serverless, mapping 1 Azure function to other Azure function.
+
+<h1>Trigger in Azure Function </h1>
+
+<h1>Security</h1> -Defender for Cloud
+            Monitoring Azure Functions with Azure Monitor Logs.
+             Require HTTPS - You should redirect HTTP to HTTPs because HTTPS uses the SSL/TLS protocol to provide a secure    
+              connection, which is both encrypted and authenticated. To learn how, see Enforce HTTPS.
+            
+    <h1>Monitoring</h1> - App insight, 
+
+some type of trigger
+![image](https://user-images.githubusercontent.com/43515480/231435657-fb8b5aea-2cb5-43a8-9ea2-ec9c574b2ab7.png)
+
+Now let’s see some of the most common types of triggers available in Azure:
+
+Timer Trigger
+This trigger is called on a predefined schedule. We can set the time for execution of the Azure Function using this trigger.
+
+Blob Trigger
+This trigger will get fired when a new or updated blob is detected. The blob contents are passed on as input to the function.
+
+Event Hub Trigger
+This trigger is used for the application instrumentation, the user experience, workflow processing, and the Internet of Things ( IoT). This trigger will get fired when any events are delivered to an Azure Event Hub.
+
+HTTP Trigger
+This trigger gets fired when the HTTP request comes.
+
+Queue Trigger
+This trigger gets fired when any new messages come in an Azure Storage Queue.
+
+Generic Webhook
+This trigger gets fired when the Webhook HTTP requests come from any service that supports Webhooks.
+
+GitHub Webhook
+This trigger is fired when an event occurs in your GitHub repositories. The GitHub repository supports events such as Branch created, delete branch, issue comment, and Commit comment.
+
+Service Bus Trigger
+This trigger is fired when a new message comes from a service bus queue or topic.
+
 https://www.techgeeknext.com/azure-functions-interview-questions
 
 
