@@ -2,10 +2,13 @@ Azure Function  - Security, Monitoring, Logging, Statefull, steless, Serverless,
 
 <h1>Trigger in Azure Function </h1>
 
-<h1>Security</h1> -Defender for Cloud
-            Monitoring Azure Functions with Azure Monitor Logs.
-             Require HTTPS - You should redirect HTTP to HTTPs because HTTPS uses the SSL/TLS protocol to provide a secure    
-              connection, which is both encrypted and authenticated. To learn how, see Enforce HTTPS.
+<h1>Security</h1> 
+https://www.c-sharpcorner.com/article/secure-azure-function-with-azure-ad/
+
+<h2>Defender for Cloud
+    <h2>        Monitoring Azure Functions with Azure Monitor Logs.</h2>
+        <h2>     Require HTTPS - You should redirect HTTP to HTTPs because HTTPS uses the SSL/TLS protocol to provide a secure    </h2>
+            <h2>  connection, which is both encrypted and authenticated. To learn how, see Enforce HTTPS.</h2>
             
     <h1>Monitoring</h1> - App insight, 
 
@@ -207,4 +210,8 @@ Binding to a function is a declarative manner of linking other resource to the f
 
 Q: How to monitoring function apps in Azure Functions?
 Ans:
-Azure Functions uses Application Insights to keep track of Function Apps. Application Insights collects data produced by the function app, such as application traces and events we create.
+Azure Functions uses Application Insights to keep track of Function Apps. Application Insights collects data produced by the function app, such as application traces and events we create..
+
+
+![image](https://user-images.githubusercontent.com/43515480/231436390-96eb4393-7079-4655-b490-849639f22a54.png)
+
