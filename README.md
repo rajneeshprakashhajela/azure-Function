@@ -5,19 +5,6 @@ Azure Function  - Security, Monitoring, Logging, Statefull, steless, Serverless,
 <h1>Trigger in Azure Function </h1>
 
 <h1>Security</h1> 
-![image](https://user-images.githubusercontent.com/43515480/231447860-9c08cb03-2efe-4567-bdff-99b33f2ce99d.png)
-![image](https://user-images.githubusercontent.com/43515480/231448007-81d9c3df-0d05-4991-972b-4437d3f2d4f6.png)
-![image](https://user-images.githubusercontent.com/43515480/231448072-ad123be3-a879-45d8-b2bc-1e6bada1cd9a.png)
-![image](https://user-images.githubusercontent.com/43515480/231448106-9f6a1ed6-7689-4d0f-a40d-5ff668c88bd7.png)
-Under “Authentication Providers”, select “Azure Active Directory”
-![image](https://user-images.githubusercontent.com/43515480/231448298-a997f92a-2b39-4bb5-8114-a0a03b491315.png)
-![image](https://user-images.githubusercontent.com/43515480/231448391-001cdad9-cfcb-4f68-b694-ceb14aa873e8.png)
-![image](https://user-images.githubusercontent.com/43515480/231448469-f3a0a9a6-4bec-48b5-9ba1-381dac516e3c.png)
-![image](https://user-images.githubusercontent.com/43515480/231448509-74aecbef-c197-4fbb-96b7-1fba86620bbf.png)
-![image](https://user-images.githubusercontent.com/43515480/231448590-9488317d-961a-431f-b3f1-e8e4833aecf0.png)
-
-![image](https://user-images.githubusercontent.com/43515480/231447782-31cdd11f-0be5-4a1c-879d-250e3402ecd3.png)
-
 
 ![image](https://user-images.githubusercontent.com/43515480/231447518-f0596c4f-eae9-4505-9ee5-681567aab7dd.png)
 https://www.c-sharpcorner.com/article/secure-azure-function-with-azure-ad/
@@ -231,4 +218,17 @@ Azure Functions uses Application Insights to keep track of Function Apps. Applic
 
 
 ![image](https://user-images.githubusercontent.com/43515480/231436390-96eb4393-7079-4655-b490-849639f22a54.png)
+
+![image](https://user-images.githubusercontent.com/43515480/231447860-9c08cb03-2efe-4567-bdff-99b33f2ce99d.png)
+![image](https://user-images.githubusercontent.com/43515480/231448007-81d9c3df-0d05-4991-972b-4437d3f2d4f6.png)
+![image](https://user-images.githubusercontent.com/43515480/231448072-ad123be3-a879-45d8-b2bc-1e6bada1cd9a.png)
+![image](https://user-images.githubusercontent.com/43515480/231448106-9f6a1ed6-7689-4d0f-a40d-5ff668c88bd7.png)
+Under “Authentication Providers”, select “Azure Active Directory”
+![image](https://user-images.githubusercontent.com/43515480/231448298-a997f92a-2b39-4bb5-8114-a0a03b491315.png)
+![image](https://user-images.githubusercontent.com/43515480/231448391-001cdad9-cfcb-4f68-b694-ceb14aa873e8.png)
+![image](https://user-images.githubusercontent.com/43515480/231448469-f3a0a9a6-4bec-48b5-9ba1-381dac516e3c.png)
+![image](https://user-images.githubusercontent.com/43515480/231448509-74aecbef-c197-4fbb-96b7-1fba86620bbf.png)
+![image](https://user-images.githubusercontent.com/43515480/231448590-9488317d-961a-431f-b3f1-e8e4833aecf0.png)
+
+![image](https://user-images.githubusercontent.com/43515480/231447782-31cdd11f-0be5-4a1c-879d-250e3402ecd3.png)
 
