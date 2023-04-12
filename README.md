@@ -1,3 +1,5 @@
+https://www.techgeeknext.com/azure-functions-interview-questions
+
 
 Design a Durable Function Work related to Employee Leave Approval Process
 https://www.c-sharpcorner.com/article/azure-duration-functions-how-to-use-and-implement-it/
@@ -110,3 +112,59 @@ Add JsReport template with name INVOICE and content:
 <img width="635" alt="image" src="https://user-images.githubusercontent.com/43515480/230004699-fb6c8903-5a27-4396-ac00-ff8184ad4408.png">
 
 <img width="550" alt="image" src="https://user-images.githubusercontent.com/43515480/230005115-48cf84ce-0774-458c-bbb7-aeb510988396.png">
+
+
+Top Azure Functions Interview Questions (2023)
+Azure Functions Interview Questions and Answers
+What is Azure Functions?
+What is Triggers in Azure Functions?
+What is the maximum number of triggers that Azure Function can have?
+What is Storage queue trigger in Azure function?
+What is binding in azure function?
+How to monitoring function apps in Azure Functions?
+
+Powered By
+VDO.AI
+PlayUnmute
+Fullscreen
+Q: What is Azure Functions?
+Ans:
+Azure Functions is a serverless computing platform that allows you to write less code, manage less infrastructure, and save cost. Rather than worrying about establishing and managing servers, the cloud architecture delivers all of the current resources necessary to keep your apps running.
+
+Q: What is Triggers in Azure Functions?
+Ans:
+Triggers are the events that cause a function to execute. A trigger specifies how a function is called, and each function must have only one. Triggers contain associated data, which is frequently provided as the function's payload.
+
+Q: What is the maximum number of triggers that Azure Function can have?
+Ans:
+One trigger : There can only be one trigger per Azure function. There can't be more than one trigger in an Azure function.
+
+Take a look at our suggested post :
+Azure Active Directory Interview Questions
+Azure Cosmos DB Interview Questions
+Azure DevOps Interview Questions
+Azure Logic Apps Interview Questions
+Azure Fabric Interview Questions
+Azure Data Factory Interview Questions
+Jenkins Interview Questions
+SonarQube Interview Questions
+Q: What is Storage queue trigger in Azure function?
+Ans:
+Once messages are added to Azure Queue storage, the queue storage trigger performs a function. In function, a storage queue trigger is defined. When a new item is added to a queue, use the queue trigger to initiate a function. The function receives the queue message as input.
+
+@FunctionName("queuetriggerfunction")
+public void run(
+    @QueueTrigger(name = "mytrigger",
+                queueName = "triggerqueuename",
+                connection = "triggerconnection") String message,
+    final ExecutionContext context
+) {
+    .............
+}
+Q: What is binding in azure function?
+Ans:
+Binding to a function is a declarative manner of linking other resource to the function; bindings might be input or output bindings, or both. The function receives data from bindings as parameters. To meet our requirements, users can mix and combine different bindings.
+
+Q: How to monitoring function apps in Azure Functions?
+Ans:
+Azure Functions uses Application Insights to keep track of Function Apps. Application Insights collects data produced by the function app, such as application traces and events we create.
