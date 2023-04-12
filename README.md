@@ -3,7 +3,6 @@ Azure Function  - Security, Monitoring, Logging, Statefull, steless, Serverless,
 
 
 <h1>Trigger in Azure Function </h1>
-https://www.c-sharpcorner.com/article/secure-azure-function-with-azure-ad/
 
 <h1>Security</h1> 
 ![image](https://user-images.githubusercontent.com/43515480/231447860-9c08cb03-2efe-4567-bdff-99b33f2ce99d.png)
@@ -21,6 +20,7 @@ Under “Authentication Providers”, select “Azure Active Directory”
 
 
 ![image](https://user-images.githubusercontent.com/43515480/231447518-f0596c4f-eae9-4505-9ee5-681567aab7dd.png)
+https://www.c-sharpcorner.com/article/secure-azure-function-with-azure-ad/
 
 <h2>Defender for Cloud
     <h2>        Monitoring Azure Functions with Azure Monitor Logs.</h2>
