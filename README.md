@@ -234,3 +234,7 @@ Under “Authentication Providers”, select “Azure Active Directory”
 
 <h3>Azure Service Bus implementation using .NET Core 6 and Queue Trigger to fetch messages</h3>
 https://github.com/Jaydeep-007/AzureServiceBusDemo
+
+https://www.c-sharpcorner.com/article/azure-service-bus-implementation-using-net-core-6-and-queue-trigger-to-fetch-me/
+![image](https://user-images.githubusercontent.com/43515480/233842228-ffad17f4-cfcd-4f46-910b-d36afcfcf083.png)
+
